@@ -1,5 +1,6 @@
 # Ignore the contents of the _site directory and other cache directories
 _site/
+_site_itu/
 .sass-cache/
 
 # Ignore the directory for local files during development
@@ -18,3 +19,8 @@ package-lock.json
 
 # Ignore folders related to IDEs
 .vscode/
+
+# Local-only ITU deployment files (repo is public - do not commit these)
+_config_itu.yml
+deploy_itu.sh
+DEPLOYMENT.md
